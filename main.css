@@ -1,0 +1,30 @@
+body{
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: cornsilk;
+}
+
+.main{
+    font-size: 24px;
+    text-align: center;
+}
+
+.time{
+    background: darkcyan;
+    border: 3px solid rgb(47, 44, 44);
+    height: 21rem;
+    width: 15rem;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 10px;
+    flex: 0 0 80%;
+}
+#ptime{
+    font-size: 41px;
+}
+
+#pdate{
+    font-size: 40px;
+}
